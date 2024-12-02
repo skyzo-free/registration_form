@@ -16,10 +16,10 @@
     <label for="email">Enter Your Email: <input id="email" type="email" name="email"required></label>
     <label for="new-password">Create a New Password: <input id="new-password" type="new-password" pattern="[a-z0-5]{8,}" name="Password"required></label>
 </fieldset>
-  <fieldset>
+  <fieldset >
     <legend>Account type (required)</legend>
-    <label for="personal-account"> <input id="personal-account" type="radio" name="account-type" checked> Personal</label>
-    <label for="business-account"> <input id="business-account" type="radio" name="account-type"> Business</label>
+    <label for="personal-account"> <input class="inline" id="personal-account" type="radio" name="account-type" checked> Personal</label>
+    <label for="business-account"> <input class="inline" id="business-account" type="radio" name="account-type"> Business</label>
   </fieldset>
   <fieldset>
     <label for="profile-picture"> Upload a profile picture: <input type="file" id="profile-picture" name="profile-picture"/>  </label>
@@ -36,7 +36,7 @@
     <label for="bio"> Provide a bio:<textarea id="bio" name="bio" placeholder="I like coding on the beach..." rows="3" cols="30"> </textarea></label> 
   </fieldset>
 
-  <label for="terms-and-conditions"> <input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required/>  I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">  terms and conditions </a></label>
+  <label for="terms-and-conditions"> <input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" class="inline" required/>  I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">  terms and conditions </a></label>
   <input type="submit" value="Submit" >
 </body>
 </html>
